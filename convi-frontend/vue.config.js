@@ -4,7 +4,7 @@ module.exports = defineConfig({
 })
 
 module.exports = {
-  outputDir: 'dist',
+  outputDir: './docs',
   assetsDir: './',
   publicPath: './'
 }
