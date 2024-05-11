@@ -1,12 +1,20 @@
 <template>
   <div id="app">
     <router-view/>
+    <TopPage/>
   </div>
 </template>
 
+<script>
+import TopPage from '@/components/TopPage';
+
 export default {
-  name: 'app'
+  name: 'app',
+  components: {
+    TopPage
+  }
 }
+</script>
 
 <style>
 #app {
