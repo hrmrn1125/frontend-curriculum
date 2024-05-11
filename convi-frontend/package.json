@@ -1,13 +1,12 @@
 {
   "name": "convi-frontend",
-  "homepage": "https://hrmrn1125.github.io/frontend-curriculum/convi-frontend",
   "version": "0.1.0",
   "private": true,
   "scripts": {
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",
     "lint": "vue-cli-service lint",
-    "deploy": "npm run build && gh-pages -d dist"
+    "deploy": "gh-pages -d dist"
   },
   "dependencies": {
     "@babel/plugin-transform-private-methods": "^7.24.1",
